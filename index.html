@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Il Mio Portfolio Fotografico</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #111;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: black;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    margin-top: 40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Il Mio Portfolio</h1>
+    <p>Fotografia | Ritratti | Paesaggi</p>
+</header>
+
+<div class="container">
+
+    <h2>Galleria</h2>
+
+    <div class="gallery">
+        <img src="foto1.jpg">
+        <img src="foto2.jpg">
+        <img src="foto3.jpg">
+    </div>
+
+    <div class="about">
+        <h2>Chi sono</h2>
+        <p>
+        Sono un fotografo appassionato. Amo catturare momenti unici e trasformarli in ricordi eterni.
+        </p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 - Il tuo nome</p>
+</footer>
+
+</body>
+</html>
